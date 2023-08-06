@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\seminar\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\seminar\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\seminar\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj",
         "projectName": "Lesson002_06.08.2023",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\seminar\\Lesson002_06.08.2023\\Lesson002_06.08.2023.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\Lesson002_06.08.2023\\obj\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Рабочий стол\\C#\\seminar\\Lesson002_06.08.2023\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
