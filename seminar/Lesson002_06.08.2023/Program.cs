@@ -91,9 +91,3 @@
 
 // Напишите программу, которая выводит случайное трехзначное число и 
 //удаляет вторую цифру этого числа.
-
-System.Console.WriteLine("Введите число");
-int num = Convert.ToInt32(Console.ReadLine());
-
-while (num % 10 !=0)
-System.Console.WriteLine(num % 10);
