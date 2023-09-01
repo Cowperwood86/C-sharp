@@ -1,37 +1,23 @@
 ﻿//Задача 29: Напишите программу, которая задаёт массив из 8 элементов случайных целых чисел от 1 до 50 и выводит их на экран.
 
-int Prompt (string message)
+void fillArray(int[] array)
 {
-    System.Console.Write(message);
-    string ReadInput = System.Console.ReadLine();
-    int result = int.Parse(ReadInput);
-    return result;
-}
-
-int [] GenerateArray (int Length, int minValue, int maxValue)
-{
-    int[] array = new int [Length];
-    Random random = new Random();
-    for (int i = 0; i < Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        array[i] = random. Next (minValue, maxValue + 1);
+        array[i] = new Random().Next(1, 51);
     }
-    return array;
 }
 
-void PrintArray (int[] array)
+void printArray(int[] array)
 {
-    System.Console.Write(" [");
-    for (int i = 0; i < array. Length - 1; i++)
+    Console.Write("[ ");
+    for (int i = 0; i < array.Length; i++)
     {
-        System. Console.Write ($" {array[i]}, ");
+        Console.Write($"{array[i]} ");
     }
-    System. Console.Write ($" {array [array. Length - 1]}");
-    System.Console.WriteLine ("]");
+    Console.Write("]");
 }
 
-int length = Prompt ("Длина массива: "); 
-int min = Prompt ("Начальное значение, для диапазона случайного числа: ");
-int max = Prompt ("Конечное значение, для диапазона случайного числа: ") ;
-int [] array = GenerateArray (length, min, max);
-PrintArray(array);
+int[] zeroOne = new int[8];
+fillArray(zeroOne);
+printArray(zeroOne);
