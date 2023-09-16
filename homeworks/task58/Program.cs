@@ -20,11 +20,6 @@ FillArray(secondArray);
 PrintArray(secondArray);
 System.Console.WriteLine();
 
-if (array.GetLength(0) != secondArray.GetLength(1))
-{
-    Console.WriteLine(" Нельзя перемножить ");
-    return;
-}
 for (int i = 0; i < array.GetLength(0); i++)
 {
     for (int j = 0; j < secondArray.GetLength(1); j++)
